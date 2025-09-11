@@ -19,7 +19,7 @@ export const getNoteById = async (req, res) => {
       res.status(200).json(note)
    } catch (error) {
       console.error("Error in getNoteById Controller",error);
-   res.status(500).json({message: "This is an internal server error", error})
+      res.status(500).json({message: "This is an internal server error", error})
    }
 }
 
