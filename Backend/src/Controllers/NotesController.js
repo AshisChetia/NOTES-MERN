@@ -1,7 +1,7 @@
 import Note from '../models/Note.js';
 
 
-
+//Controller forgetting all notes
 export const getAllNotes = async (_, res) => {
   try {
    const notes = await Note.find().sort({createdAt:-1}) // newest one

@@ -1,5 +1,6 @@
 import { ZapIcon } from "lucide-react";
 
+//RateLimiting is for optimizing
 const RateLimitedUI = () => {
   return (
     <div className="max-w-6xl mx-auto px-4 py-8">
